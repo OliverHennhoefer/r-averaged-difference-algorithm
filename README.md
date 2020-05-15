@@ -18,7 +18,7 @@ from their surrounding neighbors. The algorithm is demonstrated by the means of 
 
 ## Result:<br/>
 ![before](before.png)<br/>
-![after](After.png)<br/>
+![after](after.png)<br/>
 
 ## Future Improvements:<br/>
 - Implementation of a stand-alone package already unclusing dependencies.<br/><br/>
