@@ -17,9 +17,8 @@ from their surrounding neighbors. The algorithm is demonstrated by the means of 
 
 
 ## Result:<br/>
-![An image](before.png){:height="50px" width=50px"}
-![alt text](before.png){:class="img-responsive"}<br/>
-![alt text](After.png)<!-- .element height="50%" width="50%" --><br/>
+![before](before.png)<br/>
+![after](After.png)<br/>
 
 ## Future Improvements:<br/>
 - Implementation of a stand-alone package already unclusing dependencies.<br/><br/>
