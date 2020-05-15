@@ -17,9 +17,8 @@ from their surrounding neighbors. The algorithm is demonstrated by the means of 
 
 
 ## Result:<br/>
-![alt text](https://github.com/OliverHennhoefer/R_AvgDiff/blob/master/before.png)
-![alt text](https://github.com/OliverHennhoefer/R_AvgDiff/blob/master/after.png)
-*Note: Since the algorithm randomly chooses points for clustering, the results vary for every application of 'supercluster'*
+![alt text](https://github.com/OliverHennhoefer/R_AvgDiff/blob/master/before.png){:height="50%" width="50%"}<br/>
+![alt text](https://github.com/OliverHennhoefer/R_AvgDiff/blob/master/after.png){:height="50%" width="50%"}<br/>
 
 ## Future Improvements:<br/>
 - Implementation of a stand-alone package already unclusing dependencies.
