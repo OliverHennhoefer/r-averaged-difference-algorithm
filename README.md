@@ -1,5 +1,5 @@
 # R_AvgDiff
-R-Implemenation of the "Averaged Difference" Algorithm for Spatial Outlier Detection conceive by Yufeng Kou and Chang-Tien Lu in the scientific paper "Spatial Weighted Outlier Detection". The algorithm is suitable to detect point observation with distinct features
+R-Implemenation of the "Averaged Difference" Algorithm for Spatial Outlier Detection conceive by Yufeng Kou and Chang-Tien Lu in the scientific paper "Spatial Weighted Outlier Detection"<sup>1</sup>. The algorithm is suitable to detect point observation with distinct features
 from their surrounding neighbors. The algorithm is demonstrated by the means of agricultural yield data and generally suitable especially for the use in context of Precision Farming applications.
 
 :seedling: iFAROS. This algorithm was implemented in the course of iFAROS project. https://www.ifaros-ictagri.com/ <br/>
@@ -17,8 +17,10 @@ from their surrounding neighbors. The algorithm is demonstrated by the means of 
 
 
 ## Result:<br/>
-![alt text](https://github.com/OliverHennhoefer/R_AvgDiff/blob/master/before.png){:height="36px" width="36px"}<br/>
-![alt text](https://github.com/OliverHennhoefer/R_AvgDiff/blob/master/After.png){:height="36px" width="36px"}<br/>
+![alt text](https://github.com/OliverHennhoefer/R_AvgDiff/blob/master/before.png)<br/>
+![alt text](https://github.com/OliverHennhoefer/R_AvgDiff/blob/master/After.png)<br/>
 
 ## Future Improvements:<br/>
 - Implementation of a stand-alone package already unclusing dependencies.
+
+<sup>1</sup> http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.101.9899&rep=rep1&type=pdf
