@@ -2,8 +2,10 @@
 R-Implemenation of the "Averaged Difference" Algorithm for Spatial Outlier Detection conceive by Yufeng Kou and Chang-Tien Lu in the scientific paper "Spatial Weighted Outlier Detection". The algorithm is suitable to detect point observation with distinct features
 from their surrounding neighbors. The algorithm is demonstrated by the means of agricultural yield data and generally suitable especially for the use in context of Precision Farming applications.
 
-:seedling; Trial project. Primarily implemented to get familiar with the python syntax and the ArcPy interface for ArcGIS.
+:seedling: iFAROS. This algorithm was implemented in the course of iFAROS project. https://www.ifaros-ictagri.com/ 
+:bullettrain_side: High Performance. The implementation is based on vectorization, data.table and the k-nearest-neighbor implementation of _FNN_-package basing on kd-tree.
 
+## Dependencies:<br/>
 sp
 
 ## Parameters:<br/>
