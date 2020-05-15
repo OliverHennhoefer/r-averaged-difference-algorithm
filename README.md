@@ -19,10 +19,9 @@ from their surrounding neighbors. The algorithm is demonstrated by the means of 
 ## Result:<br/>
 ![alt text](https://github.com/OliverHennhoefer/R_AvgDiff/blob/master/before.png){
   width: 70%;
-  border: none;
-  background: none;
+
 }<br/>
-![alt text](https://github.com/OliverHennhoefer/R_AvgDiff/blob/master/After.png)<br/>
+![alt text](https://github.com/OliverHennhoefer/R_AvgDiff/blob/master/After.png)<!-- .element height="50%" width="50%" --><br/>
 
 ## Future Improvements:<br/>
 - Implementation of a stand-alone package already unclusing dependencies.<br/><br/>
