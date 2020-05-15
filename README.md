@@ -3,7 +3,7 @@ R-Implemenation of the "Averaged Difference" Algorithm for Spatial Outlier Detec
 from their surrounding neighbors. The algorithm is demonstrated by the means of agricultural yield data and generally suitable especially for the use in context of Precision Farming applications.
 
 :seedling: iFAROS. This algorithm was implemented in the course of iFAROS project. https://www.ifaros-ictagri.com/ <br/>
-:bullettrain_side: Calculation for ~8000 points (see __Results__) in less than 2 seconds.<br/>
+:bullettrain_side: High Performance. Calculation for ~8000 points (see __Results__) in less than 2 seconds.<br/>
 
 ## Dependencies:<br/>
 :wrench: __sp__-package, for geometry types<br/>
