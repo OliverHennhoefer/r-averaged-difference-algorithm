@@ -17,8 +17,8 @@ from their surrounding neighbors. The algorithm is demonstrated by the means of 
 
 
 ## Result:<br/>
-![alt text](https://github.com/OliverHennhoefer/R_AvgDiff/blob/master/before.png){:height="50%" width="50%"}<br/>
-![alt text](https://github.com/OliverHennhoefer/R_AvgDiff/blob/master/after.png){:height="50%" width="50%"}<br/>
+![alt text](https://github.com/OliverHennhoefer/R_AvgDiff/blob/master/before.png&s=200)<br/>
+![alt text](https://github.com/OliverHennhoefer/R_AvgDiff/blob/master/After.png)<br/>
 
 ## Future Improvements:<br/>
 - Implementation of a stand-alone package already unclusing dependencies.
