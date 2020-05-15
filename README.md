@@ -17,10 +17,14 @@ from their surrounding neighbors. The algorithm is demonstrated by the means of 
 
 
 ## Result:<br/>
-![alt text](https://github.com/OliverHennhoefer/R_AvgDiff/blob/master/before.png)<br/>
+![alt text](https://github.com/OliverHennhoefer/R_AvgDiff/blob/master/before.png){
+  width: 70%;
+  border: none;
+  background: none;
+}<br/>
 ![alt text](https://github.com/OliverHennhoefer/R_AvgDiff/blob/master/After.png)<br/>
 
 ## Future Improvements:<br/>
-- Implementation of a stand-alone package already unclusing dependencies.
+- Implementation of a stand-alone package already unclusing dependencies.<br/><br/>
 
 <sup>1</sup> http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.101.9899&rep=rep1&type=pdf
