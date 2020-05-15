@@ -2,11 +2,13 @@
 R-Implemenation of the "Averaged Difference" Algorithm for Spatial Outlier Detection conceive by Yufeng Kou and Chang-Tien Lu in the scientific paper "Spatial Weighted Outlier Detection". The algorithm is suitable to detect point observation with distinct features
 from their surrounding neighbors. The algorithm is demonstrated by the means of agricultural yield data and generally suitable especially for the use in context of Precision Farming applications.
 
-:seedling: iFAROS. This algorithm was implemented in the course of iFAROS project. https://www.ifaros-ictagri.com/ 
-:bullettrain_side: High Performance. The implementation is based on vectorization, data.table and the k-nearest-neighbor implementation of _FNN_-package basing on kd-tree.
+:seedling: iFAROS. This algorithm was implemented in the course of iFAROS project. https://www.ifaros-ictagri.com/ <br/>
+:bullettrain_side: High Performance. The implementation is based on vectorization, data.table and the k-nearest-neighbor implementation of _FNN_-package basing on kd-tree.<br/>
 
 ## Dependencies:<br/>
-sp
+:wrench: _sp_-package, for geometry types<br/>
+:wrench: _data.table_-package, as faster alternative for _base::data.frame_<br/>
+:wrench: _FNN_-package, for k-nearest-neighbor search algorithm<br/>
 
 ## Parameters:<br/>
 - Input: SpatialDataPointsDataFrame, georeferenced point data with attribute<br/>
@@ -23,5 +25,4 @@ sp
 *Note: Since the algorithm randomly chooses points for clustering, the results vary for every application of 'supercluster'*
 
 ## Future Improvements:<br/>
-- Calculate the mean position out of the points of one cluster to get more representative cluster locations.
-- Add the possibility to fit additional attributes to the corresponding cluster (e.g. by calculating the mean for the points of the same cluster)
+- Implementation of a stand-alone package already unclusing dependencies.
