@@ -17,9 +17,9 @@ from their surrounding neighbors. The algorithm is demonstrated by the means of 
 
 
 ## Result:<br/>
-![An image](before.png) <!-- .element height="50%" width="50%" -->
-![alt text](before.png)<br/>
-![alt text](https://github.com/OliverHennhoefer/R_AvgDiff/blob/master/After.png)<!-- .element height="50%" width="50%" --><br/>
+![An image](before.png){:height="50px" width=50px"}
+![alt text](before.png){:class="img-responsive"}<br/>
+![alt text](After.png)<!-- .element height="50%" width="50%" --><br/>
 
 ## Future Improvements:<br/>
 - Implementation of a stand-alone package already unclusing dependencies.<br/><br/>
