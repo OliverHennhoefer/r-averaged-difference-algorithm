@@ -41,3 +41,13 @@ avgDiff <- function(data, attribute.col, k) {
   result
   
 }
+
+##Apply Function
+#averaged_differences <- avgDiff(data, attribute.col, k=355)
+
+##Select top 1200 Outliers (Example)
+#ranked_differences <- averaged_differences[1:1200,1]
+
+##Subset Original Data Set
+#cleansed <- subset(data, !data$id %in% as.list(ranked_differences$ID))
+#plot(cleansed)
