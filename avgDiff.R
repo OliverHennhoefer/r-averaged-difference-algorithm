@@ -2,7 +2,6 @@
 library(data.table)
 library(FNN)
 library(sp)
-library(spdep)
 
 avgDiff <- function(data, attribute.col, k) {
   
