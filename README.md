@@ -20,7 +20,7 @@ Related Institutions and Projects: <br/>
 The function output must then be used to acutally delete potential outliers in the original dataframe as shown in the script (below function). The number of top outliers must be defined by the user. For the example shown, 1.200 points (of ~ 8.000 points) were deleted. The nearest neighbors considered (_k_) was arbitrarily set to 355. Chosen parameter values should orient on the absolute amount of data points and the "severity" of the visible measurement errors.<br/>
 Execution time for shown example: ~1.5 sec.
 
-## Result:<br/>
+## Demonstration:<br/>
 ![before](before.png)<br/>
 ![after](after.png)<br/>
 
