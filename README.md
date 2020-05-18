@@ -3,9 +3,9 @@ R-Implemenation of the "Averaged Difference"-Algorithm for Spatial Outlier Detec
 The algorithm is demonstrated by the means of agricultural yield data and generally suitable especially for the use in context of Precision Farming.<br/>
 
 Related Institutions and Projects:
-:round_pushpin: disy Informationssysteme GmbH. https://www.disy.net/de/ 
+:round_pushpin: disy Informationssysteme GmbH. https://www.disy.net/de/ <br/>
 :seedling: iFAROS. https://www.ifaros-ictagri.com/ <br/>
-:books: Universität Hohenheim: shorturl.at/ehtCJ
+:books: Universität Hohenheim: shorturl.at/ehtCJ <br/>
 
 ## Dependencies:<br/>
 :wrench: __sp__-package, for geometry types<br/>
