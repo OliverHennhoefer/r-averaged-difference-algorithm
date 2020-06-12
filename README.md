@@ -19,7 +19,7 @@ The algorithm is demonstrated by the means of agricultural yield data and genera
 The function output must then be used to acutally delete potential outliers in the original dataframe as shown in the script (below function). The number of top outliers must be defined by the user. For the example shown, 1.200 points (of ~ 8.000 points) were deleted. The nearest neighbors considered (_k_) was arbitrarily set to 355. Chosen parameter values should orient on the absolute amount of data points and the "severity" of the visible measurement errors.<br/>
 Execution time for shown example: ~1.5 sec.
 
-<img src="https://render.githubusercontent.com/render/math?math=y_i = x_i - avg(\sum_{j=1}^{k} w_{i,j}*x_j)">
+<img src="https://render.githubusercontent.com/render/math?math=y_i = \abs{x_i - avg(\sum_{j=1}^{k} w_{i,j}*x_j)}">
 
 ## Demonstration:<br/>
 ![before](before.png)<br/>
