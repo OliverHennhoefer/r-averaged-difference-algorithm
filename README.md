@@ -4,7 +4,6 @@ The algorithm is demonstrated by the means of agricultural yield data and genera
 
 :round_pushpin: disy Informationssysteme GmbH. https://www.disy.net/de/ <br/>
 :seedling: iFAROS. https://www.ifaros-ictagri.com/ <br/>
-:books: Universität Hohenheim: https://shorturl.at/ehtCJ <br/>
 
 ## Dependencies:<br/>
 :wrench: __sp__-package, for geometry types<br/>
