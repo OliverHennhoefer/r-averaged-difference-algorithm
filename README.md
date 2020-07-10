@@ -23,6 +23,6 @@ Execution time for shown example: ~1.5 sec.
 ![after](after.png)<br/>
 
 ## Future Improvements:<br/>
-- Implementation of a stand-alone package already uncluding dependencies.<br/><br/>
+- Sanity checks for input data type.<br/><br/>
 
 <sup>1</sup> http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.101.9899&rep=rep1&type=pdf
