@@ -1,4 +1,4 @@
-# R_AvgDiff
+# Averaged Difference Algorithm
 R-Implemenation of the "Averaged Difference"-Algorithm for Spatial Outlier Detection conceived by _Yufeng Kou_ and _Chang-Tien Lu_ in the scientific paper "Spatial Weighted Outlier Detection"<sup>1</sup> from 2006. The algorithm is suitable for detection of point observations with distinct features from their surrounding neighbors.<br/>
 The algorithm is demonstrated by the means of agricultural yield data and generally suitable especially for the use in context of Precision Farming.<br/>
 
