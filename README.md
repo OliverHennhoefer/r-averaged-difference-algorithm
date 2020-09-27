@@ -19,10 +19,7 @@ The function output must then be used to acutally delete potential outliers in t
 Execution time for shown example: ~1.5 sec.
 
 ## Demonstration:<br/>
-![before](before.png)<br/>
-![after](after.png)<br/>
-
-## Future Improvements:<br/>
-- Sanity checks for input data type.<br/><br/>
+![original_observations](img/before.png)<br/>
+![cleansed_observations](img/after.png)<br/>
 
 <sup>1</sup> http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.101.9899&rep=rep1&type=pdf
