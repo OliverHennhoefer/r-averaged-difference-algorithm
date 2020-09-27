@@ -15,8 +15,10 @@ The algorithm is demonstrated by the means of agricultural yield data and genera
 - Input: _k_, number of neighbours taken into account (as in _k-Nearest-Neighbor_)<br/>
 - Output: _data.table_, containing index and the corresponding _averaged difference_ in decreasing order<br/><br/>
 
-The function output must then be used to acutally delete potential outliers in the original dataframe as shown in the script (below function). The number of top outliers must be defined by the user. For the example shown, 1.200 points (of ~ 8.000 points) were deleted. The nearest neighbors considered (_k_) was arbitrarily set to 355. Chosen parameter values should orient on the absolute amount of data points and the "severity" of the visible measurement errors.<br/>
-Execution time for shown example: ~1.5 sec.
+The function returns a list (data.table) with points indices and the _averaged difference_ of the respective point. The data.table allows for the deletion of the top _n_ outliers by their indices. The actual number of outliers to be deleted can be freely chosen by the user.<br/>
+For the example shown, 1.200 points (of ~ 8.000 points) were deleted. The nearest neighbors considered (_k_) was (arbitrarily) set to 355. Chosen parameter values should orient on the absolute amount of data points and the "severity" of the visible measurement errors. Global outliers can be obtained for larger neighborhoods, while smaller neighborhoods are especially suitable to identify local outliers on a smaller spatial scale.<br/>
+
+Execution time for 8.000 point observations: ~3 sec.
 
 ## Demonstration:<br/>
 <!---  ![original_observations](img/original.png)<br/> --->
