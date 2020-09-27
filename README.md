@@ -19,9 +19,10 @@ The function output must then be used to acutally delete potential outliers in t
 Execution time for shown example: ~1.5 sec.
 
 ## Demonstration:<br/>
-![original_observations](img/original.png)<br/>
-![cleansed_observations](img/processed.png)<br/>
+<!---  ![original_observations](img/original.png)<br/> --->
+<!---  ![cleansed_observations](img/processed.png)<br/> --->
 
-<img src="https://github.com/OliverHennhoefer/r-averaged-difference-algorithm/blob/master/img/original.png" width="550"><br/>
+<img src="https://github.com/OliverHennhoefer/r-averaged-difference-algorithm/blob/master/img/original.png" width="500"><br/>
+<img src="https://github.com/OliverHennhoefer/r-averaged-difference-algorithm/blob/master/img/processed.png" width="500"><br/>
 
 <sup>1</sup> http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.101.9899&rep=rep1&type=pdf
