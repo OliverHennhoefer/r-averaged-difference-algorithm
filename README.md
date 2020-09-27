@@ -25,9 +25,6 @@ Execution time for shown example: ~1.5 sec.
 <p float="left">
   <img src="https://github.com/OliverHennhoefer/r-averaged-difference-algorithm/blob/master/img/original.png" width="500">
   <img src="https://github.com/OliverHennhoefer/r-averaged-difference-algorithm/blob/master/img/processed.png" width="500">
-</p>
-
-<img src="https://github.com/OliverHennhoefer/r-averaged-difference-algorithm/blob/master/img/original.png" width="500"><br/>
-<img src="https://github.com/OliverHennhoefer/r-averaged-difference-algorithm/blob/master/img/processed.png" width="500"><br/>
+</p><br/>
 
 <sup>1</sup> http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.101.9899&rep=rep1&type=pdf
