@@ -22,6 +22,11 @@ Execution time for shown example: ~1.5 sec.
 <!---  ![original_observations](img/original.png)<br/> --->
 <!---  ![cleansed_observations](img/processed.png)<br/> --->
 
+<p float="left">
+  <img src="https://github.com/OliverHennhoefer/r-averaged-difference-algorithm/blob/master/img/original.png" width="500">
+  <img src="https://github.com/OliverHennhoefer/r-averaged-difference-algorithm/blob/master/img/processed.png" width="500">
+</p>
+
 <img src="https://github.com/OliverHennhoefer/r-averaged-difference-algorithm/blob/master/img/original.png" width="500"><br/>
 <img src="https://github.com/OliverHennhoefer/r-averaged-difference-algorithm/blob/master/img/processed.png" width="500"><br/>
 
