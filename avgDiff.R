@@ -1,13 +1,16 @@
-#Required Packages
-library(data.table)
-library(FNN)
-library(sp)
-
 avgDiff <- function(data, attribute.col, k) {
+  require(data.table)
+  require(FNN)
+  require(sp)
   
   #KNN data.table
   knn <- get.knn(sp::coordinates(data), k=k)
   near.neighbors <- as.data.table(knn)
+  
+  #knearest <- knn2nb(knearneigh(coords, k = nn))
+  #k.distances <- nbdists(knearest, coords)
+  #invd2a <- lapply(k.distances, function(x) (1/(x/100)))
+  #weig. <- nb2listw(knearest,glist = invd2a,style = "B")
   
   #Extract Distances without Indices (introduced by as.data.table)
   near.neighbors <- near.neighbors[,(k+1):ncol(near.neighbors)]
